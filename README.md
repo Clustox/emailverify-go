@@ -5,7 +5,7 @@ A Go package for interacting with EmailVerify.io services. This package provides
 ## Installation
 
 ```bash
-go get https://github.com/Clustox/emailverifygo
+go get github.com/Clustox/emailverifygo
 ```
 
 ## Features

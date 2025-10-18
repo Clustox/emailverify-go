@@ -9,8 +9,8 @@ import (
 type AccountBalanceResponse struct {
 	APIStatus            string `json:"api_status"`
 	DailyCreditsLimit    int    `json:"daily_credits_limit"`
-	ReferralCredits      int    `json:"referral_credits,omitempty"` // absent for appsumo users
-	RemainingCredits     int    `json:"remaining_credits,omitempty"` // absent for appsumo users
+	ReferralCredits      int    `json:"referral_credits,omitempty"` 
+	RemainingCredits     int    `json:"remaining_credits,omitempty"` 
 	RemainingDailyCredits int   `json:"remaining_daily_credits,omitempty"`
 	BonusCredits         int    `json:"bonus_credits,omitempty"`
 }
