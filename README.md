@@ -9,6 +9,8 @@
 
 👉 Get free API key: https://emailverify.io
 
+[![Get API Key](https://img.shields.io/badge/Get-API%20Key-blue)](https://emailverify.io)
+
 ## Installation
 
 ```bash
