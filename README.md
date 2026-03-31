@@ -1,4 +1,4 @@
-# EmailVerify.io Go SDK
+# EmailVerify.io Go SDK [![Get API Key](https://img.shields.io/badge/Get-API%20Key-blue)](https://emailverify.io)
 
 🚀 Official Go client for EmailVerify.io — a fast, accurate email verification API.
 
@@ -9,13 +9,36 @@
 
 👉 Get free API key: https://emailverify.io
 
-[![Get API Key](https://img.shields.io/badge/Get-API%20Key-blue)](https://emailverify.io)
 
+## Why EmailVerify.io?
+
+- ⚡ Sub-100ms verification
+- 🎯 High accuracy (SMTP-level checks)
+- 💰 10x cheaper than competitors
+- 🔌 Easy API + SDKs
+
+## Quick Start
+
+package main
+
+import (
+    "fmt"
+    "github.com/Clustox/emailverifygo"
+)
+
+func main() {
+    emailverifygo.SetApiKey("your-api-key")
+
+    result, _ := emailverifygo.Validate("test@example.com")
+
+    fmt.Println(result.Status)
+}
 ## Installation
 
 ```bash
 go get github.com/Clustox/emailverifygo
 ```
+
 
 ## Features
 
