@@ -19,6 +19,7 @@
 
 ## Quick Start
 
+```go
 package main
 
 import (
@@ -33,6 +34,8 @@ func main() {
 
     fmt.Println(result.Status)
 }
+```
+
 ## Installation
 
 ```bash
