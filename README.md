@@ -1,6 +1,13 @@
-# EmailVerify.io Go Package
+# EmailVerify.io Go SDK
 
-A Go package for interacting with EmailVerify.io services. This package provides a simple and efficient way to validate email addresses, perform batch validations, find email addresses by name and domain, and check your account balance.
+🚀 Official Go client for EmailVerify.io — a fast, accurate email verification API.
+
+- Validate emails in real-time
+- Detect disposable & risky emails
+- Run bulk verification
+- Find professional email addresses
+
+👉 Get free API key: https://emailverify.io
 
 ## Installation
 
