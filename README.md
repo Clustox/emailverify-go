@@ -1,4 +1,4 @@
-# EmailVerify.io Go SDK [![Get API Key](https://img.shields.io/badge/Get-API%20Key-blue)](https://emailverify.io)
+# EmailVerify.io Go SDK [![Get API Key](https://img.shields.io/badge/Get-API%20Key-blue)](https://emailverify.io/api/)
 
 🚀 Official Go client for EmailVerify.io — a fast, accurate email verification API.
 
